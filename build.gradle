@@ -4,6 +4,10 @@ plugins {
 	id 'java'
 }
 
+plugins {
+  id "org.sonarqube" version "3.2.0"
+}
+
 group = 'com.kkjavatutorials'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '8'
